@@ -87,10 +87,10 @@ export default function HeroSection() {
               Built with modern tech stack and best practices for developers who value simplicity and performance.
             </p>
           </div>
-
+          
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Feature 1 */}
-            <motion.div
+            <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
@@ -105,9 +105,9 @@ export default function HeroSection() {
                 Optimized for performance with Next.js App Router and React Server Components.
               </p>
             </motion.div>
-
+            
             {/* Feature 2 */}
-            <motion.div
+            <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.1 }}
@@ -122,9 +122,9 @@ export default function HeroSection() {
                 TypeScript, Tailwind CSS, and other modern tools configured out of the box.
               </p>
             </motion.div>
-
+            
             {/* Feature 3 */}
-            <motion.div
+            <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
@@ -146,7 +146,7 @@ export default function HeroSection() {
       {/* Stats & Github Section */}
       <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
-          <motion.div
+          <motion.div 
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
@@ -156,7 +156,7 @@ export default function HeroSection() {
             <div className="absolute -right-20 -bottom-20 opacity-5 dark:opacity-10">
               <Github className="w-64 h-64" />
             </div>
-
+            
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
               <div className="flex flex-col justify-center">
                 <h2 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">Community Backed</h2>
@@ -177,7 +177,7 @@ export default function HeroSection() {
                   </Link>
                 </div>
               </div>
-
+              
               <div className="grid grid-cols-2 gap-4">
                 {/* Stat 1 */}
                 <div className="bg-white dark:bg-gray-800/50 p-6 rounded-xl shadow-sm">
@@ -187,7 +187,7 @@ export default function HeroSection() {
                   </div>
                   <p className="text-3xl font-bold text-gray-900 dark:text-white">13.5k+</p>
                 </div>
-
+                
                 {/* Stat 2 */}
                 <div className="bg-white dark:bg-gray-800/50 p-6 rounded-xl shadow-sm">
                   <div className="flex items-center gap-2 mb-2 text-purple-600 dark:text-purple-400">
@@ -196,7 +196,7 @@ export default function HeroSection() {
                   </div>
                   <p className="text-3xl font-bold text-gray-900 dark:text-white">250+</p>
                 </div>
-
+                
                 {/* Stat 3 */}
                 <div className="bg-white dark:bg-gray-800/50 p-6 rounded-xl shadow-sm">
                   <div className="flex items-center gap-2 mb-2 text-green-600 dark:text-green-400">
@@ -205,7 +205,7 @@ export default function HeroSection() {
                   </div>
                   <p className="text-3xl font-bold text-gray-900 dark:text-white">40+</p>
                 </div>
-
+                
                 {/* Stat 4 */}
                 <div className="bg-white dark:bg-gray-800/50 p-6 rounded-xl shadow-sm">
                   <div className="flex items-center gap-2 mb-2 text-orange-600 dark:text-orange-400">

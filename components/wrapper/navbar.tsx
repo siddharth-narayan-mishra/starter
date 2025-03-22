@@ -10,7 +10,7 @@ import {
 import { cn } from "@/lib/utils";
 import { useAuth } from "@clerk/nextjs";
 import { Dialog } from "@radix-ui/react-dialog";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { Github, Menu, Sparkles, Twitter, Youtube } from "lucide-react";
 import Link from "next/link";
 import * as React from "react";
